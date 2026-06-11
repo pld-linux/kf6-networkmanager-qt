@@ -38,6 +38,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Qt wrapper for NetworkManager DBus API.
 
+%description -l pl.UTF-8
+"Wrapper" Qt nad API NetworkManager DBus.
+
 %package devel
 Summary:	Header files for %{kfname} development
 Summary(pl.UTF-8):	Pliki nagłówkowe dla programistów używających %{kfname}
