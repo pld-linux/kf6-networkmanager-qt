@@ -2,17 +2,17 @@
 # Conditional build:
 %bcond_with	tests		# build without tests
 #
-%define		kdeframever	6.26
+%define		kdeframever	6.27
 %define		qtver		5.15.2
 %define		kfname		networkmanager-qt
 Summary:	Qt wrapper for NetworkManager DBus API
 Name:		kf6-%{kfname}
-Version:	6.26.0
+Version:	6.27.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	cfd9bcf4ff1bc3e3b077724437c491a9
+# Source0-md5:	0d24650972e660b37dc70f682efc208d
 URL:		http://www.kde.org/
 BuildRequires:	NetworkManager-devel
 BuildRequires:	Qt6Core-devel >= %{qtver}
